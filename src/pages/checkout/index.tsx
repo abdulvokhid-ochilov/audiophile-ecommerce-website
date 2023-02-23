@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import CheckoutPageTemplate from 'components/templates/CheckoutPage'
+import CheckoutPageTemplate from '../../components/templates/CheckoutPage'
 
 const CheckoutPage = (): JSX.Element => {
   return (

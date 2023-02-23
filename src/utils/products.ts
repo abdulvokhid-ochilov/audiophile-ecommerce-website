@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
-import { Product } from 'models/Product'
+import { Product } from '../models/Product'
 
 export const readData = (): Product[] => {
   const filePath = path.join(process.cwd(), 'src', 'data', 'products.json')

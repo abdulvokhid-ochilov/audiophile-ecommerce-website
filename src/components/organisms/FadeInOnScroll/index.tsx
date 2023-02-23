@@ -1,12 +1,13 @@
 import { motion, useAnimation } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { useEffect } from 'react'
+import { PropsWithChildren } from 'react'
 
 type FadeInOnScrollProps = {
   transition?: { duration: number; delay: number; ease: string }
 }
 
-const FadeInOnScroll: React.FC<FadeInOnScrollProps> = ({
+const FadeInOnScroll: React.FC<PropsWithChildren<FadeInOnScrollProps>> = ({
   children,
   transition = { ease: 'easeOut', duration: 1 },
 }) => {

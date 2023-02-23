@@ -1,6 +1,7 @@
 import { Box } from '@chakra-ui/react'
+import { Props } from 'framer-motion/types/types'
 
-const FormLegend: React.FC = ({ children }): JSX.Element => {
+const FormLegend: React.FC<Props> = ({ children }): JSX.Element => {
   return (
     <Box
       as="legend"

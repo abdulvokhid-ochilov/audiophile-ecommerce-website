@@ -1,5 +1,5 @@
 import { Container } from '@chakra-ui/react'
-import GoBackLink from 'components/atoms/GoBackLink'
+import GoBackLink from '../../components/atoms/GoBackLink'
 import CheckoutForm from './../organisms/CheckoutForm/index'
 
 const CheckoutPage = (): JSX.Element => {

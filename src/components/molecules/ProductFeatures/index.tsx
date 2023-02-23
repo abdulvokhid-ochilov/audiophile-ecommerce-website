@@ -7,7 +7,7 @@ import {
   ListItem,
   SimpleGrid,
 } from '@chakra-ui/react'
-import { IncludedItem } from 'models/Product'
+import { IncludedItem } from '../../../models/Product'
 
 type ProductFeaturesProps = {
   features: string | undefined

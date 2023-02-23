@@ -1,5 +1,5 @@
 import { HStack, Box } from '@chakra-ui/react'
-import React from 'react'
+import React, { PropsWithChildren } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
@@ -33,11 +33,9 @@ const NavLinks = (): JSX.Element => {
   )
 }
 
-const NavLink: React.FC<{ href: string; active: boolean }> = ({
-  href,
-  active,
-  children,
-}): JSX.Element => {
+const NavLink: React.FC<
+  PropsWithChildren<{ href: string; active: boolean }>
+> = ({ href, active, children }): JSX.Element => {
   const child = React.Children.only(children)
 
   return (

@@ -11,11 +11,11 @@ import {
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 
-import FormLegend from 'components/atoms/FormLegend'
-import FormField from 'components/molecules/FormField'
-import Radio from 'components/atoms/Radio'
-import Summary from 'components/molecules/Summary'
-import { useModal } from 'store/ModalContextProvider'
+import FormLegend from '../../../components/atoms/FormLegend'
+import FormField from '../../../components/molecules/FormField'
+import Radio from '../../../components/atoms/Radio'
+import Summary from '../../../components/molecules/Summary'
+import { useModal } from '../../../store/ModalContextProvider'
 
 type Inputs = {
   name: string

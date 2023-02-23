@@ -1,5 +1,5 @@
 import { Box, Text, Image, HStack } from '@chakra-ui/react'
-import CartItem from 'models/CartItem'
+import CartItem from '../../../models/CartItem'
 
 const SummaryItem = ({ item }: { item: CartItem }): JSX.Element => {
   return (

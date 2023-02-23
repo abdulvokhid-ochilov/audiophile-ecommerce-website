@@ -1,5 +1,5 @@
 import { Box, Stack, Heading, Text, Button, Image } from '@chakra-ui/react'
-import { Product } from 'models/Product'
+import { Product } from '../../../models/Product'
 import Link from 'next/link'
 
 const CategoryPageItem: React.FC<Product> = ({

@@ -1,5 +1,5 @@
 import { SimpleGrid, Image, Box } from '@chakra-ui/react'
-import { CategoryImage } from 'models/Product'
+import { CategoryImage } from '../../../models/Product'
 
 type ProductGalleryProps = {
   first?: CategoryImage | undefined

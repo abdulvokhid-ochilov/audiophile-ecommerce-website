@@ -9,10 +9,10 @@ import {
 } from '@chakra-ui/react'
 import { useSelector } from 'react-redux'
 
-import { cartItems } from 'store/CartSlice'
-import { SHIPPING_FEE } from 'constants/fees'
-import SummaryLine from 'components/molecules/SummaryLine'
-import useCartTotals from 'hooks/useCartTotals'
+import { cartItems } from '../../../store/CartSlice'
+import { SHIPPING_FEE } from '../../../constants/fees'
+import SummaryLine from '../../../components/molecules/SummaryLine'
+import useCartTotals from '../../../hooks/useCartTotals'
 import { Dispatch, SetStateAction, useEffect } from 'react'
 
 const Summary = ({

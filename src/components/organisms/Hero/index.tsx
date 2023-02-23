@@ -86,9 +86,7 @@ const Hero = (): JSX.Element => {
           for the passionate music enthusiast.
         </Text>
         <Link href="/headphones/xx99-mark-two-headphones" passHref>
-          <Button as="a" cursor="pointer">
-            See Product
-          </Button>
+          <Button cursor="pointer">See Product</Button>
         </Link>
       </MotionContainer>
     </MotionBox>

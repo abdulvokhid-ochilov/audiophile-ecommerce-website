@@ -24,7 +24,7 @@ const NavLinks = (): JSX.Element => {
             textTransform="uppercase"
           >
             <NavLink href={link.url} active={asPath === link.url}>
-              <a>{link.text}</a>
+              <>{link.text}</>
             </NavLink>
           </Box>
         ))}

@@ -90,12 +90,7 @@ const CartModal = (): JSX.Element => {
               </Text>
             </HStack>
             <Link href="/checkout" passHref>
-              <Button
-                as="a"
-                cursor="pointer"
-                onClick={onCartModalClose}
-                width="100%"
-              >
+              <Button cursor="pointer" onClick={onCartModalClose} width="100%">
                 Checkout
               </Button>
             </Link>

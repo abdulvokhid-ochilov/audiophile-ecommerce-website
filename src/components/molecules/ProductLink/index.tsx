@@ -29,7 +29,7 @@ const ProductLink: React.FC<OtherProductsProps> = ({
         {name}
       </Heading>
       <Link href={`/${slug}`}>
-        <Button as="a" cursor="pointer" mt={{ base: '32px' }}>
+        <Button cursor="pointer" mt={{ base: '32px' }}>
           See Product
         </Button>
       </Link>

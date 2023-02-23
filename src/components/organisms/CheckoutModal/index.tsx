@@ -131,7 +131,7 @@ const CheckoutModal = (): JSX.Element => {
           </Flex>
         </Flex>
         <Link href="/" passHref>
-          <Button as="a" cursor="pointer" onClick={handleClick}>
+          <Button cursor="pointer" onClick={handleClick}>
             Back to home
           </Button>
         </Link>
